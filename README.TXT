@@ -17,5 +17,7 @@ Commit message - a short description you write to describe the changes you last 
 
 Push - Upload your commits to GitHub so you can access them anywhere.
 
+* simulating writing code on a chromebook from home *
+
 Pull -
 
