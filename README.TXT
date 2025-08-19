@@ -19,5 +19,6 @@ Push - Upload your commits to GitHub so you can access them anywhere.
 
 * simulating writing code on a chromebook from home *
 
-Pull -
+Pull - Download the latest snapshot of your repository from GitHub (latest changes).  You will need to do this
+        when switching computers.
 
