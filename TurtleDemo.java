@@ -75,6 +75,38 @@ public class TurtleDemo
          */
         World pacificOcean;
         
+        /*
+         * This is a compile itme error. (this code doesn't compile)
+         * 
+         * These are often called syntax errors.
+         */
+        //crush.foward(50);
+        //System.out.println("Hello, world.")
+        
+        /*
+         * This is a run-time error.  The code compiles
+         *  and runs, but generates an exception.  In most cases the program crashes.
+         */
+        //crush.forward(1/0);
+        
+        /*
+         * This is also a run-time error.  (This code compiles and runs,
+         *      but it doesn't produce the expected output.)
+         *      
+         *      More specifically, this is a logical error.
+         *      
+         *      e.g., The turtle turns left instead of right.
+         */
+        crush.turn(-90);
+        crush.forward(100);
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
