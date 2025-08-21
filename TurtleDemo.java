@@ -57,6 +57,8 @@ public class TurtleDemo
         
         int x, y2, X_Y, total$;
         
+        int x2 = 5;
+        
         // this is not a valid identifier
         //int 2y;
         
@@ -67,8 +69,35 @@ public class TurtleDemo
          */
         Turtle squirt, SQUIRT, SqUIRt;
         
-        // not OK
+        // not OK because two identifers cannot have the same name and case structure
         //Turtle leo, leo;
+        
+        /*
+         * This is a compile time error.
+         * 
+         * The code doesn't compile.  Often called syntax errors.
+         * 
+         */
+        //crush.forwad(50);
+        //crush.forward(100)
+        
+        /*
+         * This is a run-time error.  (This code compiles, runs,
+         *      but generates an exception.  In most cases the program crashes.)
+         */
+        //crush.forward(1/0);
+        
+        
+        /*
+         * This is also a run-time error.  (This code compiles and runs, but
+         *      it doesn't produce the expected results.)
+         *      
+         *      This is a logical error.
+         *      
+         *  The turtle turns left instead of right (I intend to turn right).
+         */
+        crush.turn(-90);
+        crush.forward(100);
         
         
     }
