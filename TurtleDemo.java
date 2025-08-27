@@ -93,12 +93,13 @@ public class TurtleDemo
         crush.forward(100);
         
         /*
-         * algorithm - a series of steps in computer science (programming) that we can follow. Must be:
+         * algorithm - a series of steps that we can follow. Must be:
          *      - unambiguous
          *      - executable
          *      - terminating
          *      
-         * pseudocode - an informal description of an algorithm, often using the english language or flowcharting,
+         * pseudocode - an informal description of an algorithm, 
+         *      often using the english language and/or flowcharting,
          *      instead of a programming language.
          */
         
