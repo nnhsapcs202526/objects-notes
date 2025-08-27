@@ -100,7 +100,16 @@ public class TurtleDemo
         crush.turn(-90);
         crush.forward(100);
         
-        
+        /*
+         * algorithm - A series of steps we can follow.  Must be: 
+         *      - unambiguous
+         *      - executable
+         *      - terminating
+         *      
+         * pseudocode  - An informal representation of an algorithm that may use English and/or symbols.
+         *      Useful for designing algorithms before writing code.
+         *      
+         */
         
         
         
