@@ -106,12 +106,7 @@ public class TurtleDemo
         
     }
     
-    public static void drawLine()
-    {
-        World ocean = new World();
-        
-        Turtle crush = new Turtle(ocean);
-    }
+    
     
     
 }
