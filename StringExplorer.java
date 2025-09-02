@@ -43,6 +43,10 @@ public class StringExplorer
         System.out.println(river);
         
         
+        String riverX = river.replace("i", "x");
+        System.out.println(river);
+        System.out.println(riverX);
+        
         
     }
 }
