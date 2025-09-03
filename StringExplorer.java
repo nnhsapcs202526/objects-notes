@@ -42,7 +42,13 @@ public class StringExplorer
         river.replace("i", "x");
         System.out.println(river);
         
-        
+        /*
+         * The replace method returns a referenece to a new String object.
+         *  It does not change the original string on which it was called.
+         *  The String class has no mutator methods.  It is not possible to change a String after it's created.
+         *  
+         *  String are immutable.
+         */
         String riverX = river.replace("i", "x");
         System.out.println(river);
         System.out.println(riverX);
