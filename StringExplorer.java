@@ -37,7 +37,16 @@ public class StringExplorer
         
         /*
          * Challenge:  Fix String to actually replace 'i' with 'x'.
+         * 
+         * The replace method returns a reference to a new String object.
+         *      It does not change the String object on which it was called.
+         *      The String class has no mutator methods; it is not possible to change a string once it's created.
+         *      
+         *      Strings are immutable.
          */
+        String riverX = river.replace("i", "x");
+        System.out.println(river + " is the old string and " + riverX + " is the newly returned string.");
+        
         
     }
     
